@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #F2EAE2;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    padding-block: 175px;
+    padding-inline: 420px;
+}
+
+.channel {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.channel_info {
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    padding-inline: 20px;
+    margin-left: -32px;
+}
+
+
+.channel_info h5 {
+    margin-top: 32px;
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.63px;
+    letter-spacing: 5px;
+    text-align: left;
+    color: #6C7289;
+    margin-bottom: 20px;
+}
+
+.channel_info h1 {
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #1C232B;
+    margin-bottom: 24px;
+}
+
+.channel_info p {
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+    color: #6C7289;
+    margin-bottom: 29px;
+}
+
+.price {
+    display: flex;
+    gap: 19px;
+    margin-bottom: 15px;
+}
+
+.price h2 {
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #3D8168;
+}
+
+.price p {
+    font-family: "Montserrat", serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: left;
+    text-decoration-line: line-through;
+    color: #6C7289;
+}
+
+.add a {
+    background-color: #3D8168;
+    color: #FFFFFF;
+    padding-block: 15px;
+    padding-inline: 62px;
+    font-family: "Montserrat", serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 8px;
+}

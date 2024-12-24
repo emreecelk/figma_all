@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #D5E1EF;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 24px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    padding-block: 152px;
+    padding-inline: 560px;
+}
+
+.component {
+    padding-inline: 16px;
+    background-color: #FFFFFF;
+    padding-top: 16px;
+    margin-left: -17px;
+    border-radius: 20px;
+}
+
+.component_img {
+    background-image: url(/assets/img/Oval.png);
+    width: 288px;
+    height: 288px;
+}
+
+.component_img img {
+    padding-top: 64px;
+    padding-left: 64px;
+}
+
+.component_info {
+    margin-top: 24px;
+}
+
+.component_info h3 {
+    font-family: "Outfit", serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27.72px;
+    text-align: center;
+    color: #1F314F;
+    margin-bottom: 16px;
+}
+
+.component_info p {
+    font-family: "Outfit", serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18.9px;
+    letter-spacing: 0.1875px;
+    text-align: center;
+    color: #7D889E;
+    padding-bottom: 40px;
+    padding-inline: 16px;
+}
